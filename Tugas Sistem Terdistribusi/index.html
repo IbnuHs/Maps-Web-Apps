@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Map</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Andika&display=swap" rel="stylesheet">
+    
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">StreetMap</div>
+                 <ol>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">About US</a></li>    
+                 </ol>
+            </nav>          
+        </header>
+    
+        <section class="mainBody">
+            
+            <div class="cuaca"> 
+                <input type="search" id="searchLocation" class="searchInput">
+                <div class="columnSearch">
+                    <ol class="results">
+                        <!-- <li><a href="">Makassar</a></li>
+                        <li><a href="">Maros</a></li>
+                        <li><a href="">Pangkep</a></li> -->
+                    </ol>
+                </div>
+                
+                <div class="cuacaLokasi">
+                        
+                </div>
+            </div>
+        
+            <div class="mapSection">
+    
+                <div id="map"></div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
